@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   div {
     color: yellow;
@@ -13,4 +14,21 @@
 
   a {
     color: black;
+=======
+
+  div {
+    color: yellow;
+  }
+  
+  h1 {
+    color: pink;
+  }
+  
+  p {
+    color: green;
+  }
+
+  a {
+    color: black;
+>>>>>>> 5f8ab44f630aab6605e97afc88244d3564331c64
   }
