@@ -1,0 +1,75 @@
+Create a new section using a div with the id gallery
+Add a Subtitle with the following text: Gallery
+For each thumb image create a link element with the attribute target _blank and the src should point to the dogs big picture html document
+Inside each link element add an image element to show the dog thumb picture
+Example: We'll show the user a dog image and when the user clicks the image it will execute the link to the dogs html
+Create a new section using a div with the id figures
+Add a Subtitle with the following text: Figures & Captions
+For each thumb picture create a figure element and add a figcaption with the description of the image (type of dog, color, etc)
+All image elements must have an alt and title attibutes
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>I Love Dogs!</title>
+</head>
+
+<body>
+    <h1>I Love Dogs!</h1>
+    <hr>
+    <div id="thumbs">
+        <h2>Thumbs</h2>
+        <img src="/dogs/thumbs/dog_1.jpg" alt="dog">
+        <img src="/dogs/thumbs/dog_2.jpg" alt="dog">
+        <img src="/dogs/thumbs/dog_3.jpg" alt="dog">
+        <img src="/dogs/thumbs/dog_4.jpg" alt="dog">
+        <img src="/dogs/thumbs/dog_5.jpg" alt="dog">
+    </div>
+        <div id="nav">
+            <h2>Links</h2>
+            <ul>
+                    <a href="dog_1.html">Dog_1</a>
+                    <a href="dog_2.html">Dog_2</a>
+                    <a href="dog_3.html">Dog_3</a>
+                    <a href="dog_4.html">Dog_4</a>
+                    <a href="dog_5.html">Dog_5</a>
+            </ul>
+        </div>
+        <div id="galarey">
+                <h2>Gallery</h2>
+                        <a href="dog_1.html" target="_blank"><img src="dogs/thumbs/dog_1.jpg"></a>
+                        <a href="dog_2.html" target="_blank"><img src="dogs/thumbs/dog_2.jpg"></a>
+                        <a href="dog_3.html" target="_blank"><img src="dogs/thumbs/dog_3.jpg"></a>
+                        <a href="dog_4.html" target="_blank"><img src="dogs/thumbs/dog_4.jpg"></a>
+                        <a href="dog_5.html" target="_blank"><img src="dogs/thumbs/dog_5.jpg"></a>
+
+        </div>
+        <div id="figures">
+                <h2>Figures & Captions</h2>
+                <figure>
+                    <img src="dogs/thumbs/dog_1.jpg" alt="Black dog" title="Dog 1">
+                    <figcaption>Cute black dog</figcaption>
+                </figure>
+                <figure>
+                    <img src="dogs/thumbs/dog_2.jpg" alt="Brown puppy" title="Dog 2">
+                    <figcaption>Cute brown puppy</figcaption>
+                </figure>
+                <figure>
+                    <img src="dogs/thumbs/dog_3.jpg" alt="Dog in arms" title="Dog 3">
+                    <figcaption>Small dog held in arms</figcaption>
+                </figure>
+                <figure>
+                    <img src="dogs/thumbs/dog_4.jpg" alt="Birthday dog" title="Dog 4">
+                    <figcaption>Dog celebrating birthday</figcaption>
+                </figure>
+                <figure>
+                    <img src="dogs/thumbs/dog_5.jpg" alt="Blue eyes" title="Dog 5">
+                    <figcaption>Blue eyed husky</figcaption>
+                </figure>
+            </div>
+
+
+</body>
+
+</html>
