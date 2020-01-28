@@ -4,10 +4,8 @@
 // Use console.log to show the following message: The best class student is: %bestStudentName%
 // Use Template literals and interpolate the bestStudentName variable value
 
-let bestStudentName;
-bestStudentName = 'Sidrat';
-console.log('The best class student is:', bestStudentName);
-console.log(`The best class student is: ${bestStudentName}!`)
 
-let template3 = `The best class sudent is ${bestStudentName}!`;
-console.log(template3);
+
+
+let bestStudentName = 'Sid'
+console.log(`bestStudentName is a name with value: ${bestStudentName}`);

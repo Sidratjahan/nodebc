@@ -10,3 +10,4 @@
 let first_name ='Sidrat';
 let greeting = 'Welcome';
 console.log(greeting, first_name, 'to learning Javascript with friends');
+console.log('%s %s',first_name,greeting)
