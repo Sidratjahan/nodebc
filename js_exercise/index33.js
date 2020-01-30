@@ -7,7 +7,7 @@ userCount = userCount+5;
 console.log(`User count: ${userCount}`);
 
 // Decrement the user count by 3
-userCount = userCount+3;
+userCount -=3;
 
 // Show the following output: Users count: %userCount%
 console.log(`User count: ${userCount}`);
