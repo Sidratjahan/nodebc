@@ -27,4 +27,4 @@ console.log(result.toUpperCase());
 // Show the result value as output: the final result is: GOT
 
 // What happens when you use an invalid index number (for example, 1000)? Try it!
-console.log(text.charAt(100));
+// console.log(text.charAt(100));

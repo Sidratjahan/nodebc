@@ -25,5 +25,11 @@ while(num < 13){
     num++;
 }
 
+let str = '';
+while(str.length <13){
+    str = str + '*';
+    console.log(str);
+}
+
 
 

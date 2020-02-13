@@ -23,6 +23,7 @@
 // Exercise 61
 // Create a new index61.js file
 // Define weekdayNumber and assign a numeric value between 1 and 7
+
 let weekdayNumber = 7;
 
 switch (weekdayNumber) {

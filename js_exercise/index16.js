@@ -9,5 +9,5 @@ console.log(template3);
 */
 
 let bestStudentName = 'Sidrat';
-let greeting = 'The best class student is... ';
+let greeting = 'The best class student is: ';
 console.log(greeting + bestStudentName);
