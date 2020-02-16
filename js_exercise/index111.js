@@ -6,7 +6,7 @@ Else show the following message: %number% is odd */
 
 const evenFunc = function (num) {
     (num%2) ? console.log(`${num} is odd`) : console.log(`${num} is even`);
-    return (num%2) ? false : true;
+    // return (num%2) ? false : true;
 }
 
 evenFunc(2);
