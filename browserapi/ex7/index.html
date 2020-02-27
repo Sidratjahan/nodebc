@@ -1,25 +1,20 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
     <head>
         <title>Learning browser api</title>
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
         <script>
-// Create a basic HTML document
-// Create a script tag on the document head element
-// Show the user the following message using the alert method:
+            alert('This program adds all the numbers you input');
+            let numSum = 0;
+            do{
+                alert(`The result so far is: ${numSum}`);
+                num = prompt('If you want to continue with adding another number, please input a number.');
+                numSum += parseInt(num);
 
-// This program adds all the numbers you input
-// While the user confirms that he wants to input another number execute the following acctions
-// Using the prompt method ask the user to input a number
-// Add the number
-// Show the partial result with the following message:
-// The result so far is: %result%
-            window.alert('This program adds all the numbers you input');
-            alert('How cool is that!!');  
+            } while(num != null);
         </script>
     </head>
     <body>
         <h1>Congrats</h1>
-        <p>You are running ex3</p>
+        <p>You are running exercise 7 :)</p>
     </body>
 </html>
