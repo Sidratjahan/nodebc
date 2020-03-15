@@ -32,6 +32,25 @@
 // Simulate each game play using the players object methods
 // Show the following output after doing all the object methods calls
 // The %player name% has %energy% energy % and  %lifes% lifes
+
+let player = {
+    name: null,
+    energy: 100,
+    lives: 3,
+    loseEnergy: function(damage){
+
+    },
+    recoverEnergy: function(energyUp){
+
+    },
+    loseLife: function(){
+
+    },
+    recoverLife: function(){
+
+    }
+
+}
 var player = {
     name: null,
     energy: 100,
